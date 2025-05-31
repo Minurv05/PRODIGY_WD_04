@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: ivory;
+
+
+}
+
+.header-container {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+
+}
+
+.logo {
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 222, 102);
+
+
+}
+
+.logo h4 {
+    font-style: italic;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 1000;
+     font-family: "Iceland", sans-serif;
+
+}
+
+.header {
+
+    background-color: rgb(253, 253, 213);
+    height: 40px;
+    width: 100vw;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-item {
+    margin: 10px;
+    list-style: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family:  "Ubuntu Mono", monospace;
+
+}
+
+
+.section-home {
+    margin-top: 100px;
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text-home {
+
+    font-size: 50px;
+    margin-right: 150px;
+
+}
+
+.text-home h3 ,h1{
+      font-family: "Iceland", sans-serif;
+}
+
+.text-home p {
+    font-size: 20px;
+}
+
+.home-img img {
+    height: 230px;
+    width: 230px;
+    border-radius: 20px;
+
+}
+
+.section-about {
+    height: 250px;
+    background-color: rgb(252, 252, 197);
+
+}
+
+.text-about p {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: rgb(31, 5, 31);
+}
+
+.about-heading {
+    color: rgb(236, 222, 102);
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: "Poetsen One", sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+
+
+
+.section-skills {
+    height: 300px;
+
+    display: flex;
+}
+
+.skill-heading {
+    color: rgb(236, 222, 102);
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+}
+
+.text-skills p {
+    font-size: 25px;
+    margin-left: 80px;
+
+    margin-top: 70px;
+    color: rgb(31, 5, 31);
+
+}
+
+.html img,
+.java img {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 45px;
+    border: 1px solid rgb(230, 239, 154);
+
+}
+
+
+
+.section-projects {
+    height: 350px;
+     background-color: rgb(252, 252, 197);
+
+}
+
+.project-heading {
+    color: rgb(236, 222, 102);
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+}
+
+.text-projects {
+    height: 250px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project1 {
+    height: 230px;
+    width: 400px;
+    margin: 40px;
+   box-shadow: 10px 10px rgb(202, 197, 197);
+   border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.project1:hover{
+      transform: scale(1.05);
+}
+.text{
+    background-color: rgb(252, 252, 206);
+    height:230px;
+    width: 200px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 20px;
+    
+}
+
+.text p{
+    margin:10px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.image{
+    background-color:rgb(254, 254, 93);
+    height:230px;
+    width: 200px;
+    border-radius: 10px 0px 0px 10px;
+}
+.image img{
+    height:230px;
+    width:200px;
+     border-radius: 10px 0px 0px 10px;
+}
+.footer {
+    height: 90px;
+    width: 100vw;
+    background-color: #fcf38f;
+
+
+}
+
+.follow{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 222, 102);
+    color: rgb(31, 5, 31);
+    gap: 30px;
+    width: 100vw;
+    
+}
+
+.follow a{
+    color: rgb(31, 5, 31);
+
+}
+.copyright{
+    text-align: center;
+    font-size: 15px;
+     color: rgb(31, 5, 31);
+     margin-top: 7px;
+}
+i{
+    font-size: 30px;
+    position: relative;
+    right:65px;
+    
+}
+
+p{
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.follow .logo{
+    position: relative;
+    right:480px;
+}
+
+.link:hover{
+    color:white;
+    background-color: rgb(236, 222, 102);
+    cursor: pointer;
+}
+
+.section-home, .section-about, .section-skills, .section-projects {
+    scroll-margin-top: 100px; 
+}
+
+.image{
+    cursor: pointer;
+}
